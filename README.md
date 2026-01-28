@@ -1,11 +1,11 @@
-# 📰 Daily News Simplifier
+#  Daily News Simplifier
 
 A lightweight, browser-based news aggregation and summarization application built using **Python** and **Streamlit**.  
 It fetches real-time news, generates concise summaries, and optionally reads them aloud.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Fetches latest news using **NewsAPI**
 - Supports multiple categories:
@@ -25,7 +25,7 @@ It fetches real-time news, generates concise summaries, and optionally reads the
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python**
 - **Streamlit** (Frontend)
@@ -36,5 +36,13 @@ It fetches real-time news, generates concise summaries, and optionally reads the
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
+
+Daily-News-Simplifier/
+│
+├── app.py 
+├── news_paper_summarizer.py 
+├── requirements.txt 
+├── .gitignore 
+└── README.md 
 
