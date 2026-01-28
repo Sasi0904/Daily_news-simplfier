@@ -1,15 +1,3 @@
-#!/usr/bin/env python3
-"""
-Daily News Simplifier
-A lightweight news aggregator that fetches top stories and provides concise summaries.
-Features:
-- Top 10 news stories from multiple categories
-- 3 bullet point summaries per article
-- Voice reading mode for morning briefings
-- Customizable categories (tech, sports, politics, entertainment, etc.)
-- No heavy ML dependencies - uses efficient text processing
-"""
-
 import os
 import sys
 import json
@@ -31,8 +19,6 @@ except ImportError:
 try:
     from rich.console import Console
     from rich.panel import Panel
-    from rich.text import Text
-    from rich.table import Table
     RICH_AVAILABLE = True
 except ImportError:
     RICH_AVAILABLE = False
